@@ -42,6 +42,40 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "Male",
+                                "value": "Male",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Female",
+                                "value": "Female",
+                                "grouping": ""
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Gender",
+                        "id": "gender",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
