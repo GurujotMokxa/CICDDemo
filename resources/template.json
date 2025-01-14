@@ -1,0 +1,5 @@
+{
+    "ids" : ["customer", "partner", "supplier"],
+    "tables" : ["audit_trails", "customer", "partner", "supplier"],
+    "labels" : ["Customer", "Customers", "Partner", "Partners", "Supplier", "Suppliers"]
+}

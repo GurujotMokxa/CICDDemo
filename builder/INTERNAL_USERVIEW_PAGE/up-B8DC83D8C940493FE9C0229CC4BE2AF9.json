@@ -1,0 +1,273 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "elements": [
+                {
+                    "elements": [
+                        {
+                            "elements": [
+                                {
+                                    "elements": [
+                                        {
+                                            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+                                            "properties": {
+                                                "attr-data-events-listening": [],
+                                                "style-margin-top": "50px",
+                                                "style-margin-bottom": "50px",
+                                                "style-margin-left": "50px",
+                                                "style-color": "#FFFFFF",
+                                                "textContent": "Enhance Business Management Between <\/br>\n<strong>Customer, Supplier<\/strong> and <strong>Partner<\/strong>.",
+                                                "id": "E497B08497494B032067B980BD488C34",
+                                                "tagName": "h3",
+                                                "customId": ""
+                                            }
+                                        },
+                                        {
+                                            "elements": [
+                                                {
+                                                    "elements": [{
+                                                        "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                                                        "properties": {
+                                                            "attr-data-events-listening": [],
+                                                            "style-background-color": "#131628",
+                                                            "css-display-type": "btn btn-primary",
+                                                            "textContent": "Add Customer",
+                                                            "attr-href": "#request.baseURL#/web/userview/cicd_demo/v/_/customer_crud?_mode=add",
+                                                            "id": "92FBD3357A5E43308A4D70811D299D6A",
+                                                            "customId": "",
+                                                            "style-border-radius": "5px"
+                                                        }
+                                                    }],
+                                                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                                    "properties": {
+                                                        "style-flex": "0 0 14%",
+                                                        "style-max-width": "14%"
+                                                    }
+                                                },
+                                                {
+                                                    "elements": [{
+                                                        "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                                                        "properties": {
+                                                            "attr-data-events-listening": [],
+                                                            "style-background-color": "#131628",
+                                                            "css-display-type": "btn btn-primary",
+                                                            "textContent": "Add Supplier",
+                                                            "attr-href": "#request.baseURL#/web/userview/cicd_demo/v/_/supplier_crud?_mode=add",
+                                                            "id": "837704C674D440A236323CEAA0AA1C35",
+                                                            "customId": "",
+                                                            "style-border-radius": "5px"
+                                                        }
+                                                    }],
+                                                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                                    "properties": {
+                                                        "style-flex": "0 0 14%",
+                                                        "style-max-width": "14%"
+                                                    }
+                                                },
+                                                {
+                                                    "elements": [{
+                                                        "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                                                        "properties": {
+                                                            "attr-data-events-listening": [],
+                                                            "style-background-color": "#131628",
+                                                            "css-display-type": "btn btn-primary",
+                                                            "textContent": "Add Partner",
+                                                            "attr-href": "#request.baseURL#/web/userview/cicd_demo/v/_/partner_crud?_mode=add",
+                                                            "id": "C25B1C3D48AA4BD3FC2A4FE57A2F6EF1",
+                                                            "customId": "",
+                                                            "style-border-radius": "5px"
+                                                        }
+                                                    }],
+                                                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                                    "properties": {
+                                                        "style-flex": "0 0 14%",
+                                                        "style-max-width": "14%"
+                                                    }
+                                                }
+                                            ],
+                                            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                            "properties": {
+                                                "attr-data-events-listening": [],
+                                                "gutter": "5px",
+                                                "style-margin-left": "50px",
+                                                "columns": [
+                                                    {
+                                                        "style-mobile-max-width": "",
+                                                        "style-max-width": "14%",
+                                                        "style-tablet-max-width": ""
+                                                    },
+                                                    {
+                                                        "style-mobile-max-width": "",
+                                                        "style-max-width": "14%",
+                                                        "style-tablet-max-width": ""
+                                                    },
+                                                    {
+                                                        "style-mobile-max-width": "",
+                                                        "style-max-width": "14%",
+                                                        "style-tablet-max-width": ""
+                                                    }
+                                                ],
+                                                "css-mobile-stack-columns": "true",
+                                                "id": "9603AEACC7A247FD5363875E3F68BB6C",
+                                                "customId": ""
+                                            }
+                                        }
+                                    ],
+                                    "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                                    "properties": {
+                                        "attr-data-events-listening": [],
+                                        "style-background-color": "#0474FA",
+                                        "style-custom": "background-color:linear-gradient(to bottom, #0066ff 0%, #0033cc 100%) !important;",
+                                        "style-height": "100%",
+                                        "id": "2D5BF617BBD34DE3F7C2296EEF289B9B",
+                                        "customId": "",
+                                        "style-border-radius": "10px"
+                                    }
+                                },
+                                {
+                                    "className": "org.joget.apps.userview.lib.component.ImageComponent",
+                                    "properties": {
+                                        "attr-data-events-listening": [],
+                                        "style-right": "50px",
+                                        "style-position": "absolute",
+                                        "attr-width": "350",
+                                        "style-bottom": "0px",
+                                        "attr-height": "350",
+                                        "attr-src": "/jw/web/app/cicd_demo/resources/team.png",
+                                        "id": "FCFA3A9EFB9949689CC9A53D21F5E5A4",
+                                        "customId": ""
+                                    }
+                                }
+                            ],
+                            "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                            "properties": {
+                                "style-flex": "0 0 70%",
+                                "style-max-width": "70%"
+                            }
+                        },
+                        {
+                            "elements": [
+                                {
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "attr-data-events-listening": [],
+                                        "template": "<!--{sampleWidth: '250px', tags: 'light-bg icon'}-->\n<div class=\"card flex-row align-items-center align-items-stretch\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center \n                justify-content-center rounded-left\" \n         style=\"color:{{color||#f05050}}; \n         font-size: 48px;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8 text-right\">\n        <p style=\"font-size: 24px; \n                  font-weight: 600; \n                  margin-bottom: 10px;\">\n            {{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 18px;\n                   color: rgba(0,0,0,.6);\n                   margin: 5px 0;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n    <\/div>\n<\/div>\n<!---->",
+                                        "color": "#348FE2",
+                                        "icon": "<i class=\"far fa-handshake\"><\/i>",
+                                        "link": "#request.baseURL#/web/userview/cicd_demo/v/_/customer_crud",
+                                        "bgImg": "",
+                                        "title": "Total Partners",
+                                        "customId": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "style-margin-bottom": "15px",
+                                        "id": "FD7C637EC548476579BC609727E665D9",
+                                        "value": "#datalist.size.list_partner#",
+                                        "height": "",
+                                        "style-border-radius": "10px"
+                                    }
+                                },
+                                {
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "attr-data-events-listening": [],
+                                        "linkLabel": "Total Customers",
+                                        "template": "<!--{sampleWidth: '250px', tags: 'light-bg icon'}-->\n<div class=\"card flex-row align-items-center align-items-stretch\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center \n                justify-content-center rounded-left\" \n         style=\"color:{{color||#f05050}}; \n         font-size: 48px;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8 text-right\">\n        <p style=\"font-size: 24px; \n                  font-weight: 600; \n                  margin-bottom: 10px;\">\n            {{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 18px;\n                   color: rgba(0,0,0,.6);\n                   margin: 5px 0;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n    <\/div>\n<\/div>\n<!---->",
+                                        "color": "#348FE2",
+                                        "icon": "<i class=\"far fa-user\"><\/i>",
+                                        "link": "#request.baseURL#/web/userview/cicd_demo/v/_/supplier_crud",
+                                        "bgImg": "",
+                                        "title": "Total Customers",
+                                        "customId": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "style-margin-bottom": "15px",
+                                        "id": "C8DEF025AB82419F0F72123BF2810444",
+                                        "value": "#datalist.size.list_customer#",
+                                        "height": "",
+                                        "style-border-radius": "10px"
+                                    }
+                                },
+                                {
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "attr-data-events-listening": [],
+                                        "template": "<!--{sampleWidth: '250px', tags: 'light-bg icon'}-->\n<div class=\"card flex-row align-items-center align-items-stretch\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center \n                justify-content-center rounded-left\" \n         style=\"color:{{color||#f05050}}; \n         font-size: 48px;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8 text-right\">\n        <p style=\"font-size: 24px; \n                  font-weight: 600; \n                  margin-bottom: 10px;\">\n            {{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 18px;\n                   color: rgba(0,0,0,.6);\n                   margin: 5px 0;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n    <\/div>\n<\/div>\n<!---->",
+                                        "color": "#348FE2",
+                                        "icon": "<i class=\"fas fa-truck-loading\"><\/i>",
+                                        "link": "#request.baseURL#/web/userview/cicd_demo/v/_/partner_crud",
+                                        "bgImg": "",
+                                        "title": "Total Suppliers",
+                                        "customId": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "id": "21F97079469945F761DE7B6F3E211B76",
+                                        "value": "#datalist.size.list_supplier#",
+                                        "height": "",
+                                        "style-border-radius": "10px"
+                                    }
+                                }
+                            ],
+                            "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                            "properties": {}
+                        }
+                    ],
+                    "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                    "properties": {
+                        "attr-data-events-listening": [],
+                        "gutter": "5px",
+                        "style-margin-bottom": "20px",
+                        "columns": [
+                            {
+                                "style-mobile-max-width": "",
+                                "style-max-width": "70%",
+                                "style-tablet-max-width": ""
+                            },
+                            {
+                                "style-mobile-max-width": "",
+                                "style-max-width": "",
+                                "style-tablet-max-width": ""
+                            }
+                        ],
+                        "css-mobile-stack-columns": "true",
+                        "id": "660164EC49E742AC3F9A21A9D2D906AB",
+                        "customId": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "<h4>Recent Record Update<\/h4>",
+                        "keyName": "",
+                        "customFooter": "",
+                        "enableOffline": "",
+                        "label": "List",
+                        "customId": "",
+                        "buttonPosition": "bottomLeft",
+                        "datalistId": "list_audit_trails",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "id": "1D1ED64000714F2BB946115C1397F4AA",
+                        "rowCount": "",
+                        "style-border-radius": "10px"
+                    }
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-margin-left": "10%",
+                "style-margin-right": "10%",
+                "id": "873FC9E7F77247787797280C27F6B3C6",
+                "customId": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-B8DC83D8C940493FE9C0229CC4BE2AF9"}
+}
