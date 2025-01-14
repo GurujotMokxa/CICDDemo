@@ -88,6 +88,16 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "fullWidth": "False",
+                        "readonly": "False",
+                        "label": "Check Box",
+                        "id": "field6",
+                        "readonlyLabel": "False"
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
                         "resizeMethod": "",
