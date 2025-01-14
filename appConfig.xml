@@ -1,0 +1,24 @@
+<appDefinition>
+   <appId>cicd_demo</appId>
+   <id>cicd_demo</id>
+   <version></version>
+   <name>CI/CD Demo</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>counter</id>
+         <appId>cicd_demo</appId>
+         <appVersion>1</appVersion>
+         <value>20</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+   </environmentVariableList>
+   <messageList/>
+   <resourceList/>
+   <license>otXos6Ro4lwDaXIhb+1rC61+WYvHmPnsMxExTUAM6QkBuyOzbRQcVE7N1xt5LYycZM5jdIpL/2edHcDrdodGaw==</license>
+</appDefinition>

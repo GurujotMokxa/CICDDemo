@@ -1,0 +1,110 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.IdGeneratorField",
+                    "properties": {
+                        "hidden": "",
+                        "format": "ID-??????",
+                        "workflowVariable": "",
+                        "envVariable": "counter",
+                        "label": "ID",
+                        "id": "id",
+                        "style-display": "none"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "elementUniqueKey": "4914",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "customerID",
+                        "value": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "elementUniqueKey": "4915",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "editor",
+                        "value": "#currentUser.username#"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "elementUniqueKey": "4916",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "date",
+                        "value": "#date.yyyy-MM-dd HH:mm#"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "status",
+                        "value": "#requestParam._mode#ed"
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {
+                "elementUniqueKey": "4908",
+                "width": "100%"
+            }
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "visibilityControl": "",
+            "regex": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "elementUniqueKey": "4896",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "id": "section2",
+            "label": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Audit Trails",
+        "description": "",
+        "id": "audit_trails",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "audit_trails"
+    }
+}
