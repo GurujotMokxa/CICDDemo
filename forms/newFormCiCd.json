@@ -3,6 +3,16 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.IdGeneratorField",
+                    "properties": {
+                        "format": "ID-??????",
+                        "envVariable": "counter",
+                        "isDistributedGeneration": "false",
+                        "label": "ID Generator",
+                        "id": "field5"
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
