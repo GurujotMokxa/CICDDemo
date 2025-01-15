@@ -1,0 +1,64 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "useSession": "false",
+    "showPageSizeSelector": "true",
+    "rowActions": [],
+    "columns": [
+        {
+            "name": "id",
+            "id": "column_0",
+            "label": "Customer ID"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "company",
+            "id": "column_3",
+            "label": "Company",
+            "sortable": "false"
+        },
+        {
+            "name": "customer_first_name",
+            "id": "column_1",
+            "label": "First Name"
+        },
+        {
+            "name": "customer_last_name",
+            "id": "column_2",
+            "label": "Last Name"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "cust_contact_no",
+            "id": "column_4",
+            "label": "Contact No",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "email_address",
+            "id": "column_5",
+            "label": "Email Address",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": 0,
+    "orderBy": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "name": "List - Customer",
+    "id": "list_customer",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "customer"}
+    },
+    "actions": [],
+    "order": ""
+}
