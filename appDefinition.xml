@@ -122,14 +122,14 @@
       <appResource>
          <id>team.png</id>
          <appId>cicd_demo</appId>
-         <appVersion>1</appVersion>
+         <appVersion>2</appVersion>
          <filesize>54735</filesize>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.team.png#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>template.json</id>
          <appId>cicd_demo</appId>
-         <appVersion>1</appVersion>
+         <appVersion>2</appVersion>
          <filesize>209</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
